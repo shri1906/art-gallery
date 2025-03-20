@@ -1,9 +1,10 @@
-import { Router, Routes } from "react-router-dom";
+import { Route, Router, Routes } from "react-router-dom";
 import "./App.css";
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
 import { useTheme } from "./context/ThemeContext";
 import { useEffect } from "react";
+import Home from "./pages/Home";
 
 
 function App() {
@@ -21,6 +22,10 @@ function App() {
     <>
       <Navbar />
       <Routes>
+        <Route path="/" element={<Home />} />
+        {/* <Route path="/gallery" element={<Gallery />} />
+        <Route path="/about" element={<About />} />
+        <Route path="/contact" element={<Contact />} /> */}
       </Routes>
       <Footer />
     </>

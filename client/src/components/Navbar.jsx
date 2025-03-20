@@ -10,7 +10,8 @@ const Navbar = () => {
   return (
     <nav className={`fixed top-0 left-0 w-full shadow-md z-50 ${theme === 'dark' ? 'bg-gray-800 text-white' : 'bg-white'}`}>
       <div className="container mx-auto px-4 py-3 flex justify-between items-center">
-        <h1 className={`text-2xl font-bold ${theme === 'dark' ? 'text-white' : 'text-gray-800'}`}>Art Gallery</h1>
+        {/* <h1 className={`text-2xl font-bold ${theme === 'dark' ? 'text-white' : 'text-gray-800'}`}>Art Gallery</h1> */}
+        <img src="./art-logo.png" alt="Art Gallery" className="h-16" />
 
         {/* Desktop Menu */}
         <ul className="hidden md:flex space-x-6 items-center">
