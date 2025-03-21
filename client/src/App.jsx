@@ -6,6 +6,7 @@ import { useTheme } from "./context/ThemeContext";
 import { useEffect } from "react";
 import Home from "./pages/Home";
 import Gallery from "./pages/Gallery";
+import About from "./pages/About";
 
 
 function App() {
@@ -25,8 +26,8 @@ function App() {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/gallery" element={<Gallery />} />
-        {/* <Route path="/about" element={<About />} />
-        <Route path="/contact" element={<Contact />} /> */}
+        <Route path="/about" element={<About />} />
+        {/* <Route path="/contact" element={<Contact />} /> */}
       </Routes>
       <Footer />
     </>

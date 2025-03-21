@@ -42,7 +42,7 @@ const Home = () => {
 
       {/* Who We Are Section */}
       <div className="mt-8 text-center px-6">
-        <h2 className="text-4xl font-semibold mb-4">Who We Are</h2>
+        <h2 className="text-5xl font-semibold mb-4">Who We Are</h2>
         <p className="text-lg text-gray-600 leading-relaxed">
           Welcome to our Art Gallery! We are a collective of passionate artists and art enthusiasts,
           dedicated to showcasing and promoting unique artwork from around the world. Our gallery
@@ -56,7 +56,7 @@ const Home = () => {
 
       {/* Product Listings */}
       <div className="mt-12 px-4 mb-12">
-        <h2 className="text-4xl font-semibold mb-6 text-center">Our Products</h2>
+        <h2 className="text-5xl font-semibold mb-6 text-center">Our Products</h2>
         <p className="text-lg text-gray-600 text-center mb-6 px-6">
           Our collection includes a diverse range of artworks, from vibrant abstract paintings to
           intricately detailed sculptures. Each piece is carefully curated to ensure the highest quality
@@ -104,7 +104,7 @@ const Home = () => {
 
       {/* What We Do Section */}
       <div className="mt-12 text-center px-6 py-12">
-        <h2 className="text-4xl font-semibold mb-4">What We Do</h2>
+        <h2 className="text-5xl font-semibold mb-4">What We Do</h2>
         <p className="text-lg text-gray-600 leading-relaxed">
           Our gallery is not just about showcasing art; we aim to create a thriving art community.
           We organize exhibitions, workshops, and artist meetups to encourage artistic expression and
@@ -121,7 +121,7 @@ const Home = () => {
         style={{ backgroundImage: "url('slide1.jpg')" }}
       >
         <div className="bg-opacity-50 py-10 px-6 rounded-lg inline-block">
-          <h2 className="text-4xl font-semibold mb-4">Contact Us</h2>
+          <h2 className="text-5xl font-semibold mb-4">Contact Us</h2>
           <p className="text-lg 0">Have questions? We'd love to hear from you!</p>
           <p className="text-lg 0 mt-2">
             📧 Email:{" "}
