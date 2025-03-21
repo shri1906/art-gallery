@@ -88,12 +88,12 @@ const Home = () => {
             >
               &times;
             </button>
-            <img src={selectedProduct.imageUrl} alt={selectedProduct.name} className="w-full max-h[60vh] object-cover rounded mb-4" />
+            <img src={selectedProduct.imageUrl} alt={selectedProduct.name} className="w-full max-h[50vh] object-cover rounded mb-4" />
             <h3 className="text-2xl font-semibold mt-4">{selectedProduct.name}</h3>
             <p className="text-gray-700 text-lg mt-2">{selectedProduct.description}</p>
             <p className="text-gray-800 text-2xl font-bold mt-2">{selectedProduct.price}</p>
             <button
-              className="mt-4 w-full bg-red-500 hover:bg-red-700 text-white font-bold py-2 px-4 rounded"
+              className="mt-4 w-full bg-red-500 hover:bg-red-700 text-white font-bold py-2 px-4 rounded cursor-pointer"
               onClick={closeModal}
             >
               Close
@@ -118,7 +118,7 @@ const Home = () => {
       {/* Contact Us Section */}
       <div
         className="mt-12 text-center py-16 px-6 bg-cover bg-center"
-        style={{ backgroundImage: "url('slide3.jpg')" }}
+        style={{ backgroundImage: "url('slide1.jpg')" }}
       >
         <div className="bg-opacity-50 py-10 px-6 rounded-lg inline-block">
           <h2 className="text-4xl font-semibold mb-4">Contact Us</h2>
