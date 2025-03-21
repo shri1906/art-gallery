@@ -1,5 +1,6 @@
 import { useState, useEffect } from "react";
 import Carousel from "../components/Carousel";
+import { FaEnvelope, FaPhone } from "react-icons/fa";
 
 const Home = () => {
   // Sample product data
@@ -126,13 +127,13 @@ const Home = () => {
           <h2 className="text-5xl font-semibold mb-4">Contact Us</h2>
           <p className="text-lg 0">Have questions? We'd love to hear from you!</p>
           <p className="text-lg 0 mt-2">
-            📧 Email:{" "}
+            <FaEnvelope className="inline-block text-xl" /> Email:{" "}
             <a href="mailto:contact@artgallery.com" className=" hover:underline">
               contact@brushandbeyond.com
             </a>
           </p>
           <p className="text-lg mt-2">
-            📞 Phone:{" "}
+            <FaPhone className="inline-block text-xl" /> Phone:{" "}
             <a href="tel:+917310941087" className=" hover:underline">
               +91-7310941087
             </a>
