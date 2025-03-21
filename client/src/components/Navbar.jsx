@@ -18,8 +18,8 @@ const Navbar = () => {
         <ul className="hidden md:flex space-x-6 items-center">
           <li><Link to="/" className={`hover:text-gray-900 ${theme === 'dark' ? 'text-gray-300' : 'text-gray-700'}`}>Home</Link></li>
           <li><Link to="/gallery" className={`hover:text-gray-900 ${theme === 'dark' ? 'text-gray-300' : 'text-gray-700'}`}>Gallery</Link></li>
-          <li><Link to="/about" className={`hover:text-gray-900 ${theme === 'dark' ? 'text-gray-300' : 'text-gray-700'}`}>About</Link></li>
-          <li><Link to="/contact" className={`hover:text-gray-900 ${theme === 'dark' ? 'text-gray-300' : 'text-gray-700'}`}>Contact</Link></li>
+          <li><Link to="/about" className={`hover:text-gray-900 ${theme === 'dark' ? 'text-gray-300' : 'text-gray-700'}`}>About Us</Link></li>
+          <li><Link to="/contact" className={`hover:text-gray-900 ${theme === 'dark' ? 'text-gray-300' : 'text-gray-700'}`}>Contact Us</Link></li>
           <li>
             <button onClick={toggleTheme} className="focus:outline-none">
               {theme === 'dark' ? <FaSun size={20} className="text-yellow-400" /> : <FaMoon size={20} className="text-gray-700" />}

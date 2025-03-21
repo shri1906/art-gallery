@@ -41,9 +41,9 @@ const Home = () => {
       <Carousel />
 
       {/* Who We Are Section */}
-      <div className="mt-8 text-center px-6">
+      <div className="mt-8 text-center px-6 container mx-auto">
         <h2 className="text-5xl font-semibold mb-4">Who We Are</h2>
-        <p className="text-lg text-gray-600 leading-relaxed">
+        <p className="text-lg text-gray-600 leading-relaxed text-justify">
           Welcome to our Art Gallery! We are a collective of passionate artists and art enthusiasts,
           dedicated to showcasing and promoting unique artwork from around the world. Our gallery
           provides a platform for emerging and established artists to present their masterpieces to a
@@ -56,6 +56,7 @@ const Home = () => {
 
       {/* Product Listings */}
       <div className="mt-12 px-4 mb-12">
+        <div className="container mx-auto">
         <h2 className="text-5xl font-semibold mb-6 text-center">Our Products</h2>
         <p className="text-lg text-gray-600 text-center mb-6 px-6">
           Our collection includes a diverse range of artworks, from vibrant abstract paintings to
@@ -63,6 +64,7 @@ const Home = () => {
           and artistic value. Whether you are looking for a bold centerpiece or a subtle addition to your
           collection, you will find something that resonates with your aesthetic.
         </p>
+        </div>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
           {products.map((product) => (
             <div key={product.id} className=" rounded-lg overflow-hidden shadow-md">
@@ -103,9 +105,9 @@ const Home = () => {
       )}
 
       {/* What We Do Section */}
-      <div className="mt-12 text-center px-6 py-12">
+      <div className="mt-12 container text-center mx-auto py-12">
         <h2 className="text-5xl font-semibold mb-4">What We Do</h2>
-        <p className="text-lg text-gray-600 leading-relaxed">
+        <p className="text-lg text-gray-600 leading-relaxed text-justify">
           Our gallery is not just about showcasing art; we aim to create a thriving art community.
           We organize exhibitions, workshops, and artist meetups to encourage artistic expression and
           appreciation. Our services include art consultations, custom commissions, and framing solutions.

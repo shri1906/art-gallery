@@ -14,11 +14,6 @@ function Footer() {
           <div className="text-center md:text-left mb-4 md:mb-0">
             <p className="text-sm">&copy; {new Date().getFullYear()}  Brush & Beyond | All rights reserved.</p>
           </div>
-          <nav className="flex flex-wrap justify-center md:justify-start mb-4 md:mb-0">
-            <Link to="/privacy" className="text-sm mx-2">Privacy Policy</Link>
-            <Link to="/terms" className="text-sm mx-2">Terms of Service</Link>
-            <Link to="/contact" className="text-sm  mx-2">Contact Us</Link>
-          </nav>
           <div className="flex justify-center md:justify-end space-x-4">
             <Link to="https://www.facebook.com" target="_blank" rel="noopener noreferrer" className="">
               <FaFacebook className="h-6 w-6" />
